@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <meta name="description" content="Get the current weather and 5-day forecast for any city">
+    <meta property="og:title" content="Weather App">
+    <meta property="og:description" content="Get the current weather and 5-day forecast for any city">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+        <input id="search-input" type="text" placeholder="Search city">
+        <button id="search-button"><i class="fa fa-search"></i></button>
+    </header>
+    <main>
+        <section id="current-weather">
+            <h2>Current Weather</h2>
+            <div id="weather-icon"></div>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </section>
+        <section id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div id="forecast-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
